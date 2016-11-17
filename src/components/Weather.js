@@ -19,13 +19,13 @@ class Weather extends Component {
 
     this.setState({isLoading: true});
 
-    openWeatherMap.getTemp(location).then(function(temp) {
+    openWeatherMap.getTemp(location).then((temp) => {
       self.setState({
         isLoading: false,
         location: location,
         temp: temp
       });
-    }, function(errorMessage) {
+    }, (errorMessage) => {
       self.setState({
         isLoading: false
       });
