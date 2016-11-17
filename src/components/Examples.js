@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Examples extends Component {
-  render() {
-    return (
-      <h3 className="Examples">Examples Component</h3>
-    );
-  }
-}
+let Examples = (props) => {
+  return (
+    <h3 className="Examples">Examples Component</h3>
+  );
+};
 
 export default Examples;

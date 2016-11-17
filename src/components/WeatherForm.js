@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class WeatherForm extends Component {
   constructor(props) {
     super(props);
-    console.log('form', this);
     this.state = {location: ''};
 
     this.handleChange = this.handleChange.bind(this);
