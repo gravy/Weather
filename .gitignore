@@ -3,6 +3,7 @@
 
 # dependencies
 node_modules
+public/bundle.js
 
 # testing
 coverage

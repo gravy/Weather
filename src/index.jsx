@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Route, Router, IndexRoute, hashHistory} from 'react-router';
-import App from './App';
-import Weather from './components/Weather';
-import About from './components/About';
-import Examples from './components/Examples';
-import './index.css';
+import App from 'App';
+import Weather from 'Weather';
+import About from 'About';
+import Examples from 'Examples';
+//import './index.css';
 
 ReactDOM.render(
   <Router history={hashHistory}>

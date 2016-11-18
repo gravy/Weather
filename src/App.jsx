@@ -1,6 +1,6 @@
 import React from 'react';
-import Nav from './components/Nav';
-import './App.css';
+import Nav from 'Nav';
+//import './App.css';
 
 let App = ({children}) => {
   return (
