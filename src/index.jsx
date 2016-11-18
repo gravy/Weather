@@ -5,7 +5,12 @@ import App from 'App';
 import Weather from 'Weather';
 import About from 'About';
 import Examples from 'Examples';
-//import './index.css';
+
+// Load foundation
+require('!style!css!foundation-sites/dist/foundation.min.css');
+$(document).foundation();
+
+//require('!style!css!./css/index.css');
 
 ReactDOM.render(
   <Router history={hashHistory}>

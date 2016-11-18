@@ -1,6 +1,6 @@
 function addPromise(a, b) {
-  return new Promise(function(resolve, reject) {
-    setTimeout(function() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
       if (typeof a === 'number' && typeof b === 'number') {
         resolve(a + b);
       } else {
@@ -10,14 +10,14 @@ function addPromise(a, b) {
   });
 }
 
-addPromise(2, 5).then(function(returnValue) {
+addPromise(2, 5).then((returnValue) => {
   console.log('promise success', returnValue);
-}, function(err) {
+}, (err) => {
   console.log('promise error', err);
 });
 
-addPromise('2', 5).then(function(returnValue) {
+addPromise('2', 5).then((returnValue) => {
   console.log('promise success', returnValue);
-}, function(err) {
+}, (err) => {
   console.log('promise error', err);
 });

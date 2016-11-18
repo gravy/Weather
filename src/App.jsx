@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from 'Nav';
-//import './App.css';
+//require('!style!css!./css/App.css');
 
 let App = ({children}) => {
   return (

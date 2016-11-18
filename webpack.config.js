@@ -37,9 +37,6 @@ module.exports = {
   module: {
     loaders: [
       {
-//         loaders: [
-//           { test: /\.css$/, loader: "style-loader!css-loader" }
-//         ],
         loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015', 'stage-0']
