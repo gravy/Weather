@@ -2,7 +2,10 @@ import React from 'react';
 
 let Examples = (props) => {
   return (
-    <h3 className="Examples">Examples Component</h3>
+    <div>
+      <h3 className="Examples">Examples</h3>
+      <p>Welcome to examples page!</p>
+    </div>
   );
 };
 
