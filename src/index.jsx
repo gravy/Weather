@@ -7,10 +7,11 @@ import About from 'About';
 import Examples from 'Examples';
 
 // Load foundation
-require('!style!css!foundation-sites/dist/foundation.min.css');
+require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 
-//require('!style!css!./css/index.css');
+// App.css
+require('style!css!applicationStyles');
 
 ReactDOM.render(
   <Router history={hashHistory}>

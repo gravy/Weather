@@ -4,7 +4,8 @@ module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
     'script!foundation-sites/dist/foundation.min.js',
-    './src/index.jsx'
+    './src/index.jsx',
+
   ],
   externals: {
     jquery: 'jQuery'
@@ -29,8 +30,9 @@ module.exports = {
       WeatherMessage: 'src/components/WeatherMessage.jsx',
       About: 'src/components/About.jsx',
       Examples: 'src/components/Examples.jsx',
-      openWeatherMap: 'api/openWeatherMap.jsx',
-      ErrorModal: 'src/components/ErrorModal.jsx'
+      openWeatherMap: 'src/api/openWeatherMap.jsx',
+      ErrorModal: 'src/components/ErrorModal.jsx',
+      applicationStyles: 'src/styles/app.css'
     },
     extensions: ['', '.js', '.jsx']
   },

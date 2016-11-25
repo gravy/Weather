@@ -28,7 +28,7 @@ class WeatherForm extends Component {
     return (
       <div>
         <form onSubmit={this.onFormSubmit}>
-          <input type="text" value={this.state.location} onChange={this.handleChange} placeholder="Enter city name" />
+          <input type="search" value={this.state.location} onChange={this.handleChange} placeholder="Search weather by city" />
           <button className="button expanded hollow">Get Weather</button>
         </form>
       </div>
